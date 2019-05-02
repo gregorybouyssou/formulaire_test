@@ -1,23 +1,334 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulaire_test.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>FORMULAIRE TEST</title>
 </head>
+
 <body>
+
+    <section id="first">
+        <fieldset>
+
+            <form>
+
+                <p>
+                    <div>
+                        <label for="name"> Full Name*</label>
+                    </div>
+
+                    <input type="text" name="First" id="First" placeholder="First">
+                    <input type="text" name="Last" id="Last" placeholder="Last">
+                </p>
+
+                <p>
+                    <div>
+                        <label for="email"> Email*</label>
+                    </div>
+                    <input type="email" id="Email">
+
+                </p>
+
+                <p>
+
+                    <div>
+                        <label for="subject">Subject</label>
+                    </div>
+
+                    <select name="subject" id="subject">
+                        <option value="advertise">Advertise</option>
+                    </select>
+                </p>
+                <p>
+                    <div>
+                        <label for="your message"> Your Message*</label>
+                    </div>
+                    <textarea name="message" id="message"></textarea>
+
+                </p>
+
+                <p>
+                    <div id="submit1">
+                        <input type="submit" value="Submit">
+                    </div>
+                </p>
+
+
+            </form>
+
+
+        </fieldset>
+    </section>
     <fieldset>
 
         <form>
-            <label for="name"> Full Name</label>
-            <input type="text" name="First"
 
+            <p>
+                Provide your information
+            </p>
+
+            <p>
+
+                <label for="name"> Name</label>
+                <input type="text" name="name" id="name">
+
+            </p>
+
+            <p>
+                <label for="email"> Email</label>
+                <input type="email" id="Email">
+
+            </p>
+
+            <p>
+                <label for="telephone">Telephone</label>
+                <input type="tel" id="tel">
+
+            </p>
+
+            <p>
+                <label for="regarding">Regarding</label>
+                <select name="regarding" id="regarding">
+                    <option value="general">General</option>
+                </select>
+            </p>
+
+            <p>
+                <label for=" message"> Message</label>
+                <textarea name="message" id="message"></textarea>
+
+            </p>
+
+            <p>
+                <input type="submit" value="Submit">
+            </p>
 
 
         </form>
 
 
     </fieldset>
+
+    <fieldset>
+
+
+        <section>
+            <fieldset>
+                <legend>Personal</legend>
+                <form>
+
+                    <p>
+
+                        <label for="name"> Name</label>
+                        <input type="text" name="name" id="name">
+
+                    </p>
+
+                    <p>
+                        <label for="email"> Email</label>
+                        <input type="email" id="Email">
+
+                    </p>
+
+                    <p>
+                        <label for="telephone">Phone</label>
+                        <input type="tel" id="tel">
+
+                    </p>
+
+                    <p>
+                        <label for="Subject">Subject</label>
+                        <select name="subject" id="subject">
+                            <option value="appointment">Appointment</option>
+                        </select>
+                    </p>
+            </fieldset>
+        </section>
+
+        <section>
+            <fieldset>
+
+                <legend>Message</legend>
+
+                <p>
+                    <label for=" message"> Message</label>
+                    <textarea name="message" id="message"></textarea>
+
+                </p>
+
+                <p>
+                    <input type="submit" value="Submit">
+                </p>
+
+            </fieldset>
+        </section>
+
+        </form>
+
+
+    </fieldset>
+
+
+    <fieldset>
+
+        <form>
+
+            <p>
+
+                <label for="name"> Enter Your Name</label>
+                <input type="text" name="name" id="name">
+
+            </p>
+
+            <p>
+                <label for="email"> Email Address</label>
+                <input type="email" id="Email">
+
+            </p>
+
+            <p>
+                <label for="subject">Short Subject</label>
+                <input type="text" id="subject">
+
+            </p>
+
+
+
+            <p>
+                <label for=" message"> Message to Us</label>
+                <input type="text" id="message">
+
+            </p>
+
+            <p>
+                <input type="submit" value="Send Letter">
+            </p>
+
+
+        </form>
+
+    </fieldset>
+
+    <fieldset>
+
+        <form>
+
+            <h2>1 Candidate info</h2>
+
+            <p>
+
+
+                <input type="text" name="name" id="name" placeholder="Your Name">
+
+            </p>
+
+            <p>
+
+                <input type="email" id="Email" placeholder="Your Email">
+
+            </p>
+
+            <p>
+
+                <textarea name="message" id="message" placeholder="About Your Self"></textarea>
+
+            </p>
+
+
+            <p>
+                <label for="interests">Interests</label>
+                <select name="interests" id="interests">
+                    <option value="fishkeeping">Fishkeeping</option>
+                </select>
+            </p>
+
+            <h2>2 Additional Info</h2>
+
+            <p>
+
+                <textarea name="message" id="message" placeholder="About Your School"></textarea>
+
+            </p>
+
+            <p>
+                <input type="submit" value="Apply">
+            </p>
+
+
+        </form>
+
+
+    </fieldset>
+    <fieldset>
+
+        <form>
+
+
+            <h1>Contact Us</h1>
+
+
+            <p>
+                <input type="text" name="name" id="name" placeholder="Your Name">
+
+            </p>
+
+            <p>
+
+                <input type="email" id="Email" placeholder="Email Address">
+
+            </p>
+
+            <p>
+
+                <textarea name="message" id="message" placeholder="Type your Message"></textarea>
+
+            </p>
+
+
+            <p>
+                <input type="submit" value="Apply">
+            </p>
+
+
+        </form>
+
+    </fieldset>
+
+    <fieldset>
+        <form>
+
+            <fieldset>
+                <legend>Name</legend>
+                <input type="text" id="name" placeholder="Enter your name here">
+            </fieldset>
+
+            <fieldset>
+                <legend>Email</legend>
+                <input type="text" id="email" placeholder="Enter a valid email address">
+            </fieldset>
+
+            <fieldset>
+                <legend>Website</legend>
+                <input type="text" id="website" placeholder="Your website address(eg:http://www.google.com)">
+            </fieldset>
+
+            <fieldset>
+                <legend>About You</legend>
+                <input type="text" id="email" placeholder="Enter a valid email address">
+            </fieldset>
+
+
+        </form>
+    </fieldset>
+
+
+
+
+
 </body>
+
 </html>
