@@ -1,12 +1,34 @@
 body{
     width: 30%;
     margin: auto;
-}
+    }
 
-#first{ 
 
- #submit1{
-     background-color: 
+#submit1 input{
+     background-color: #4B99AD;
+     color: white;
  } 
    
-}
+ #titre1{
+    
+    text-decoration:underline;
+    }
+
+ 
+
+ #submit2 input{
+    background-color: #FF8500;
+    color: white;
+ }
+ .obligatoire{
+     color: red
+ }
+ .deroulant select{
+    background-color:#DDDDDD;
+ }
+ .cube input{
+
+    
+    
+ }
+    
